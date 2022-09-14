@@ -39,7 +39,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "Binary1",
+						"referenceName": "Binary3",
 						"type": "DatasetReference"
 					},
 					"fieldList": [
@@ -106,7 +106,13 @@
 							"inputs": [
 								{
 									"referenceName": "Binary1",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"filename": {
+											"value": "@item().name",
+											"type": "Expression"
+										}
+									}
 								}
 							],
 							"outputs": [
