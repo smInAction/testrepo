@@ -19,7 +19,7 @@
 					"value": "@dataset().filename",
 					"type": "Expression"
 				},
-				"container": "src-emp-container"
+				"container": "src-blob-container"
 			}
 		}
 	}
