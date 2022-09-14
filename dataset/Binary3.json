@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"container": "src-emp-container"
+				"container": "src-blob-container"
 			}
 		}
 	}
